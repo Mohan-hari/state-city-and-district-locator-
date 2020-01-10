@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: ("./images/backgroud.jpg");
+  background-color: #61dafb;
 }
 
 .App-logo {
@@ -27,7 +29,15 @@
 .App-link {
   color: #61dafb;
 }
+.myform{
+  text-align: center;
+  padding: 12px -24px;
+  margin: 14px 2px;
+}
 
+.intemap{
+  margin-top: 20px 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
