@@ -8,6 +8,11 @@ body {
   background-color: antiquewhite;
   background-image: ("./images/backgroud.jpg");
 }
+h1{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top:20px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -17,4 +22,12 @@ code {
   text-align: center;
   padding: 12px -24px;
   margin: 14px 2px;
+}
+
+@media only screen and (width: 480px) {
+  .myform{
+    text-align: center;
+    padding: 12px -24px;
+    margin: 14px 2px;
+  }
 }
